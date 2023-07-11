@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import NavBar from "./NavBar";
+import NavBar from "./Navbar";
 import AboutMe from "./pages/AboutMe";
-import Projects from "./pages/Projects"; 
+import Portfolio from "./pages/Portfolio"; 
 import Resume from "./pages/Resume";  
 import ContactForm from "./pages/ContactForm";
 
@@ -12,8 +12,8 @@ export default function PortfolioContainer() {
         if (currentPage === "AboutMe") {
             return <AboutMe />;
         }
-        if (currentPage === "Projects") {
-            return <Projects />;
+        if (currentPage === "Portfolio") {
+            return <Portfolio />;
         }
         if (currentPage === "Resume") {
             return <Resume />;

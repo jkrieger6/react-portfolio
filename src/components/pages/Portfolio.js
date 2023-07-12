@@ -29,8 +29,38 @@ export default function Portfolio() {
         {
             name: "Beer Traveler",
             image: "",
-            deployed: "",
+            deployed: "https://jkrieger6.github.io/beer-traveler/",
             github:""
+        },
+        {
+            name: "The recipe Drawer",
+            image: "",
+            deployed: "https://the-recipe-drawer.herokuapp.com",
+            github: ""
+        },
+        {
+            name: "Work Day Scheduler",
+            image: "",
+            deployed: "https://jkrieger6.github.io/work-day-scheduler/",
+            github: ""
+        },
+        {
+            name: "README Generator",
+            image: "",
+            deployed: "",
+            github: "https://github.com/jkrieger6/README-generator/blob/main/README.md"
+        },
+        {
+            name: "Employee Tracker",
+            image: "",
+            deployed: "",
+            github: "https://github.com/jkrieger6/Employee-tracker.git"
+        },
+        {
+            name: "SVG Generator",
+            image: "",
+            deployed: "",
+            github: "https://github.com/jkrieger6/brand-logo-generator"
         }
     ]
     return (

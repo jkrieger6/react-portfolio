@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <p>Download my <a href="https://docs.google.com/document/d/1k5oJ6s8X8VX8Dd5j0qJ3Q8Jy8p8uJ7X0/edit?usp=sharing&ouid=105958420065297075497&rtpof=true&sd=true">resume</a>.</p>
+            <p>Download my <a href="https://docs.google.com/document/d/1aD1lK1apb2Pq_5YiKVMDHzPSd2zgBIpg8Jjvgl_Ew4k/edit?usp=sharing">resume</a>.</p>
             <h2>Front-end Proficiencies</h2>
             <ul>
                 <li>HTML</li>

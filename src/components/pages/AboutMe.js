@@ -2,13 +2,10 @@ import React from "react";
 
 const styles = {
     aboutMeStyles: {
-        width: "100%",
         height: "100%",
         backgroundColor: "grey",
         color: "ivory",
         textAlign: "center",
-        padding: "20px",
-        margin: "20px",
         border: "5px solid black",
     },
     imgStyles: {
@@ -17,7 +14,6 @@ const styles = {
         border: "5px solid black",
     },
     pStyles: {
-        width: "100%",
         height: "100%",
         backgroundColor: "grey",
         color: "ivory",
@@ -32,7 +28,7 @@ export default function AboutMe() {
     return (
         <div style={styles.aboutMeStyles}>
             <h1>About Me</h1>
-            <img style={styles.imgStyles} src="" alt="Portrait picture of myself at the Grand Canyon" />
+            <img style={styles.imgStyles} src="/images/IMG_3883 Small.jpeg" alt="Portrait of myself at the Grand Canyon" />
             <p style={styles.pStyles}>
                 I am a full stack web developer with a full stack web development bootcamp certificate. 
                 I have a passion for creating and learning new things.

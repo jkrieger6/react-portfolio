@@ -28,37 +28,37 @@ export default function Portfolio() {
     const projects = [
         {
             name: "Beer Traveler",
-            image: "",
+            image: "/images/beerTraveler.jpeg",
             deployed: "https://jkrieger6.github.io/beer-traveler/",
             github:""
         },
         {
-            name: "The recipe Drawer",
-            image: "",
+            name: "The Recipe Drawer",
+            image: "/images/recipeDrawer.jpeg",
             deployed: "https://the-recipe-drawer.herokuapp.com",
             github: ""
         },
         {
             name: "Work Day Scheduler",
-            image: "",
+            image: "/images/workDay.jpeg",
             deployed: "https://jkrieger6.github.io/work-day-scheduler/",
             github: ""
         },
         {
             name: "README Generator",
-            image: "",
+            image: "/images/readmegen.jpeg",
             deployed: "",
             github: "https://github.com/jkrieger6/README-generator/blob/main/README.md"
         },
         {
             name: "Employee Tracker",
-            image: "",
+            image: "/images/employeeTracker.jpeg",
             deployed: "",
             github: "https://github.com/jkrieger6/Employee-tracker.git"
         },
         {
             name: "SVG Generator",
-            image: "",
+            image: "/images/SVG.jpeg",
             deployed: "",
             github: "https://github.com/jkrieger6/brand-logo-generator"
         }

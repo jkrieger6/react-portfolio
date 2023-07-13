@@ -1,14 +1,38 @@
 import React from 'react';
 
+const styles = {
+    card: {
+        background: 'grey',
+        color: '#bed630',
+        display: 'flex',
+        flexDirection: 'column',
+        flexWrap: 'wrap',
+        textAlign: 'center',
+        },
+    content: {
+        background: 'grey',
+        minHeight: 50,
+        lineHeight: 3.5,
+        fontSize: '1.2rem',
+        color: '#bed630',
+        padding: '0 20px',
+        textAlign: 'center'
+    },
+    image: {
+        padding: 20,
+        border: '1px solid #bed630',
+    }
+}
+
 // Single component to be reused for multiple projects
  function Project(props) {
     return (
-        <div className="card">
+        <div style={styles.card} className="card">
             <div className="img-container">
-                <img alt={props.data.name} src={props.data.image} />
+                <img style={styles.image} alt={props.data.name} src={props.data.image} />
             </div>
-            <div className="content">
-                <ul>
+            <div style={styles.content} className="content">
+                <p>
                     <li>
                         Name: {props.data.name}
                     </li>
@@ -18,7 +42,7 @@ import React from 'react';
                     <li>
                         GitHub Repository Link: {props.data.github}
                     </li>
-                </ul>
+                </p>
             </div>
         </div>
     );
@@ -64,7 +88,7 @@ export default function Portfolio() {
         }
     ]
     return (
-        <div>
+        <div style={styles.card}>
             <h1>Portfolio</h1>
             {
                 projects.map(project => <Project data={project} />)

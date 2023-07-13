@@ -1,5 +1,5 @@
 import React from "react";
-// import "../public/images/headerBg.jpg"
+import "./public/images/headerBg.jpg"
 
 const styles = {
     headerStyles: {
@@ -17,7 +17,7 @@ export default function Header() {
         <header style={styles.headerStyles}>
             <h1>Jacob Krieger</h1>
             <div>
-                 <img src="./public/images/headerBg.jpg" alt="background" /> 
+                 <img src="./images/headerBg.jpg" alt="background" /> 
             </div>
         </header>
     );

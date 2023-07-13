@@ -1,10 +1,9 @@
 import React from "react";
-import "./public/images/headerBg.jpg"
 
 const styles = {
     headerStyles: {
         backgroundColor: "grey",
-        color: "ivory",
+        // color: "ivory",
         textAlign: "center",
         padding: "40px",
 },
@@ -17,7 +16,7 @@ export default function Header() {
         <header style={styles.headerStyles}>
             <h1>Jacob Krieger</h1>
             <div>
-                 <img src="./images/headerBg.jpg" alt="background" /> 
+                 <img src="/images/headerBg.jpeg" alt="background" /> 
             </div>
         </header>
     );

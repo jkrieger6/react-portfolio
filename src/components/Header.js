@@ -2,12 +2,10 @@ import React from "react";
 
 const styles = {
     headerStyles: {
-        width: "100%",
         backgroundColor: "grey",
         color: "ivory",
         textAlign: "center",
         padding: "40px",
-        margin: "20px",
 },
 };
 

@@ -1,9 +1,17 @@
 import React from "react";
 
+const styles = {
+    NavStyles: {
+        backgroundColor: "grey",
+        justifyContent: "center",
+        spacing: "10px"
+    },
+};
+
 function NavBar({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav-tabs">
-            <li className="nav-item">
+        <nav style={styles.NavStyles} className="nav-tabs">
+            <nav className="nav-item">
                 <a
                     href="#AboutMe"
                     onClick={() => handlePageChange("AboutMe")}
@@ -12,8 +20,8 @@ function NavBar({ currentPage, handlePageChange }) {
                 >
                     About Me
                 </a>
-            </li>
-            <li className="nav-item">
+            </nav>
+            <nav className="nav-item">
                 <a
                     href="#Portfolio"
                     onClick={() => handlePageChange("Portfolio")}
@@ -22,8 +30,8 @@ function NavBar({ currentPage, handlePageChange }) {
                 >
                     Portfolio
                 </a>
-            </li>
-            <li className="nav-item">
+            </nav>
+            <nav className="nav-item">
                 <a
                     href="#Resume"
                     onClick={() => handlePageChange("Resume")}
@@ -31,8 +39,8 @@ function NavBar({ currentPage, handlePageChange }) {
                 >
                     Resume
                 </a>
-            </li>
-            <li className="nav-item">
+            </nav>
+            <nav className="nav-item">
                 <a
                     href="#ContactForm"
                     onClick={() => handlePageChange("ContactForm")}
@@ -40,8 +48,8 @@ function NavBar({ currentPage, handlePageChange }) {
                 >
                     Contact
                 </a>
-            </li>
-        </ul>
+            </nav>
+        </nav>
     );
 }
 

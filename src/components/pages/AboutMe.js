@@ -29,13 +29,13 @@ export default function AboutMe() {
         <div style={styles.aboutMeStyles}>
             <h1>About Me</h1>
             <img style={styles.imgStyles} src="/images/IMG_3883 Small.jpeg" alt="Portrait of myself at the Grand Canyon" />
-            <p style={styles.pStyles}>
+            <div class="container" style={styles.pStyles}>
                 I am a full stack web developer with a full stack web development bootcamp certificate. 
                 I have a passion for creating and learning new things.
                 I am a team player and I am excited to bring my skills to a new team. 
                 I am a hard worker and I am always looking for ways to improve my skills.
                 I am a fast learner and I am excited to learn new skills.
-            </p>
+            </div>
         </div>
     );
 }

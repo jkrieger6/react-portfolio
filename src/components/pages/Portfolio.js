@@ -27,11 +27,11 @@ const styles = {
 // Single component to be reused for multiple projects
  function Project(props) {
     return (
-        <div style={styles.card} className="card">
-            <div className="img-container">
+        <div style={styles.card} className="card text-center">
+            <div className="card-header">
                 <img style={styles.image} alt={props.data.name} src={props.data.image} />
             </div>
-            <div style={styles.content} className="content">
+            <div style={styles.content} className="card-body">
                 <p>
                     <li>
                         Name: {props.data.name}

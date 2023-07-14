@@ -3,7 +3,7 @@ import React from 'react';
 const styles = {
     card: {
         background: 'grey',
-        color: '#bed630',
+        color: '#d2e9ec',
         display: 'flex',
         flexDirection: 'column',
         flexWrap: 'wrap',
@@ -14,7 +14,7 @@ const styles = {
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: '1.2rem',
-        color: '#bed630',
+        color: '#2acaea',
         padding: '0 20px',
         textAlign: 'center'
     },

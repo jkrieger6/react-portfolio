@@ -4,7 +4,7 @@ const styles = {
     resumeStyles: {
         backgroundColor: "grey",
         textAlign: "center",
-        border: "5px solid black",
+        textDecoration: "underline",
         display: "flex",
         justifyContent: "center"
     },
@@ -24,7 +24,7 @@ const styles = {
     divStyles: {
         textAlign: "center",
         backgroundColor: "grey",
-        color: "#2acaea",
+        color: "#d2e9ec",
         margin: "auto",
         padding: "20px"
     },

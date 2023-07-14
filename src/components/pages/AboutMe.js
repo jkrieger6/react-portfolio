@@ -4,7 +4,7 @@ const styles = {
     aboutMeStyles: {
         height: "100%",
         backgroundColor: "grey",
-        color: "ivory",
+        color: "#d2e9ec",
         textAlign: "center",
         border: "5px solid black",
     },

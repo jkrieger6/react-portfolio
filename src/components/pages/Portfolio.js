@@ -38,6 +38,7 @@ const styles = {
                     </li>
                     <li>
                         Deployed Application Link: {props.data.deployed}
+                        {/* <p style={styles.pStyles} >Deployed Application <a href="{props.data.deployed}">here!</a></p> */}
                     </li>
                     <li>
                         GitHub Repository Link: {props.data.github}

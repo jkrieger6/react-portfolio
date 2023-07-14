@@ -2,40 +2,42 @@ import React from "react";
 
 const styles = {
     resumeStyles: {
-        height: "100%",
         backgroundColor: "grey",
-        color: "ivory",
         textAlign: "center",
         border: "5px solid black",
+        display: "flex",
+        justifyContent: "center"
     },
     pStyles: {
         height: "100%",
         backgroundColor: "grey",
         color: "ivory",
         textAlign: "center",
-        padding: "20px",
-        margin: "20px",
         border: "5px solid black",
     },
     skillsStyles: {
-        height: "100%",
         backgroundColor: "grey",
         color: "ivory",
         textAlign: "center",
         padding: "20px",
-        margin: "20px",
-        border: "5px solid black",
+    },
+    divStyles: {
+        textAlign: "center",
+        backgroundColor: "grey",
+        color: "#2acaea",
+        margin: "auto",
+        padding: "20px"
     },
 
 };
 
 export default function Resume() {
     return (
-        <div>
+        <div style={styles.divStyles}>
             <h1>Resume</h1>
-            <p style={styles.pStyles} >Download my <a href="https://docs.google.com/document/d/1aD1lK1apb2Pq_5YiKVMDHzPSd2zgBIpg8Jjvgl_Ew4k/edit?usp=sharing">resume here!</a>.</p>
-            <h2 style={styles.skillsStyles}>Front-end Proficiencies</h2>
-            <ul>
+            <p style={styles.pStyles} >Download my <a href="https://docs.google.com/document/d/1aD1lK1apb2Pq_5YiKVMDHzPSd2zgBIpg8Jjvgl_Ew4k/edit?usp=sharing">resume</a> here!</p>
+            <h2 style={styles.resumeStyles}>Front-end Proficiencies</h2>
+            <ul style={styles.skillsStyles}>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -44,8 +46,8 @@ export default function Resume() {
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
-            <h2 style={styles.skillsStyles}>Back-end Proficiencies</h2>
-            <ul>
+            <h2 style={styles.resumeStyles}>Back-end Proficiencies</h2>
+            <ul style={styles.skillsStyles}>
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>

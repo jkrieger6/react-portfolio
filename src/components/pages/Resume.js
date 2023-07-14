@@ -17,14 +17,14 @@ const styles = {
     },
     skillsStyles: {
         backgroundColor: "grey",
-        color: "ivory",
+        color: "#E2B4BD",
         textAlign: "center",
         padding: "20px",
     },
     divStyles: {
         textAlign: "center",
         backgroundColor: "grey",
-        color: "#d2e9ec",
+        color: "#9CF6F6",
         margin: "auto",
         padding: "20px"
     },

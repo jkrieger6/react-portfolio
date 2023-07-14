@@ -4,14 +4,14 @@ const styles = {
     formStyles: {
         width: "75%",
         backgroundColor: "grey",
-        color: "ivory",
+        color: "#9CF6F6",
         textAlign: "center",
         border: "5px solid black",
         margin: "auto",
         padding: "20px",
 },
     h1Styles: {
-        color: "#d2e9ec",
+        color: "#9CF6F6",
         backgroundColor: "grey",
         display: "flex",
         justifyContent: "center",
@@ -25,8 +25,8 @@ divStyles: {
 buttonStyles: {
     textAlign: "center",
     margin: "auto",
-    backgroundColor: "ivory",
-    color: "#2acaea",
+    backgroundColor: "#416788",
+    color: "#9CF6F6",
     border: "3px solid black",
     padding: "10px",
     borderRadius: "10px",

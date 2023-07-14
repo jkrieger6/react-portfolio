@@ -2,19 +2,17 @@ import React from "react";
 
 const styles = {
     NavStyles: {
-        backgroundColor: "#16537e",
+        backgroundColor: "#416788",
         justifyContent: "center",
-        spacing: "10px",
-        display: "flex",
-        margin: "auto",
+        display: "flex"
     },
     aStyles: {
-        color: "ivory",
+        color: "#71B340",
         padding: "10px",
         margin: "10px",
         fontSize: "20px",
         fontWeight: "bold",
-        textDecoration: "none"
+        backgroundColor: "#416788"
     },
 };
 

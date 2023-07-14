@@ -3,7 +3,7 @@ import React from 'react';
 const styles = {
     card: {
         background: 'grey',
-        color: '#d2e9ec',
+        color: '#9CF6F6',
         display: 'flex',
         flexDirection: 'column',
         flexWrap: 'wrap',
@@ -14,7 +14,7 @@ const styles = {
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: '1.2rem',
-        color: '#2acaea',
+        color: '#E2B4BD',
         padding: '0 20px',
         textAlign: 'center'
     },
@@ -27,8 +27,8 @@ const styles = {
 // Single component to be reused for multiple projects
  function Project(props) {
     return (
-        <div style={styles.card} className="card text-center">
-            <div className="card-header">
+        <div style={styles.card} className="card-container">
+            <div className="image-container">
                 <img style={styles.image} alt={props.data.name} src={props.data.image} />
             </div>
             <div style={styles.content} className="card-body">

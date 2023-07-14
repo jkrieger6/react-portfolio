@@ -4,7 +4,7 @@ const styles = {
     aboutMeStyles: {
         height: "100%",
         backgroundColor: "grey",
-        color: "#d2e9ec",
+        color: "#9CF6F6",
         textAlign: "center",
         border: "5px solid black",
     },
@@ -16,7 +16,7 @@ const styles = {
     pStyles: {
         height: "100%",
         backgroundColor: "grey",
-        color: "ivory",
+        color: "#9CF6F6",
         textAlign: "center",
         padding: "20px",
         margin: "20px",

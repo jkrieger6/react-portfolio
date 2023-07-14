@@ -8,7 +8,7 @@ const styles = {
         textAlign: "center",
         border: "5px solid black",
         margin: "auto",
-        padding: "20px"
+        padding: "20px",
 },
     h1Styles: {
         textAlign: "center",
@@ -23,6 +23,21 @@ divStyles: {
     width: "100%",
     textAlign: "center",
 },
+buttonStyles: {
+    textAlign: "center",
+    margin: "auto",
+    backgroundColor: "ivory",
+    color: "#2acaea",
+    border: "3px solid black",
+    padding: "10px",
+    borderRadius: "10px",
+},
+    erorrStyles: {
+        color: "#2acaea",
+        textAlign: "center",
+        margin: "auto",
+        padding: "10px",
+    },
 };
 
 // Function to render error message if email is not valid
@@ -62,7 +77,7 @@ export default function ContactForm() {
                     <input name="name" type="name" onBlur={handleNameBlur} className="form-control" id="FormControlInput1" placeholder="Name" />
                     {
                         nameError && (
-                            <span>Please provide your name.</span>
+                            <span style={styles.erorrStyles}>Please provide your name.</span>
                         )
                     }
                 </div>
@@ -71,7 +86,7 @@ export default function ContactForm() {
                     <input name="email" onBlur={handleBlur} type="email" className="form-control" id="FormControlInput2" placeholder="example@email.com"/>
                     {
                         emailError && (
-                            <span>Please provide a valid email.</span>
+                            <span style={styles.erorrStyles}>Please provide a valid email.</span>
                         )
                     }
                 </div>
@@ -80,11 +95,11 @@ export default function ContactForm() {
                     <textarea name="message" onBlur={handleMessageBlur} className="form-control" id="FormControlTextarea1" rows="3"></textarea>
                     {
                         messageError && (
-                            <span>Please provide a message.</span>
+                            <span style={styles.erorrStyles}>Please provide a message.</span>
                         )
                     }
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button style={styles.buttonStyles} type="submit" className="btn btn-primary">Submit</button>
             </form>
         </div>
     );

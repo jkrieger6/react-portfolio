@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const styles = {
     formStyles: {
-        width: "50%",
         backgroundColor: "grey",
         color: "ivory",
         textAlign: "center",
@@ -11,13 +10,12 @@ const styles = {
         padding: "20px",
 },
     h1Styles: {
-        textAlign: "center",
-        color: "ivory",
+        color: "#2acaea",
         backgroundColor: "grey",
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
-        margin: "auto"
+        margin: "auto",
+        padding: "20px"
 },
 divStyles: {
     width: "100%",

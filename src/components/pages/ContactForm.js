@@ -7,10 +7,17 @@ const styles = {
         color: "ivory",
         textAlign: "center",
         border: "5px solid black",
+        margin: "auto",
+        padding: "20px"
 },
     h1Styles: {
         textAlign: "center",
-        color: "ivory"
+        color: "ivory",
+        backgroundColor: "grey",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: "auto"
 },
 divStyles: {
     width: "100%",

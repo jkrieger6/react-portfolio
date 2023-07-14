@@ -14,7 +14,7 @@ const styles = {
 export default function Header() {
     return (
         <header style={styles.headerStyles}>
-            <h1>Jacob Krieger</h1>
+            <h1> Hello There! I'm Jacob Krieger</h1>
             <div>
                  <img src="/images/headerBg.jpeg" alt="background" /> 
             </div>

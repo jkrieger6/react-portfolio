@@ -1,4 +1,10 @@
 import React from 'react';
+import beerTraveler from '../../images/dataDisplay.jpeg';
+import readmeGen from '../../images/readmegen.jpeg';
+import svg from '../../images/SVG.jpeg';
+import employeeTracker from '../../images/employee.jpeg';
+import recipeDrawer from '../../images/recipeDrawer.jpeg';
+import workDay from '../../images/workDay.jpeg';
 
 const styles = {
     card: {
@@ -6,7 +12,6 @@ const styles = {
         color: '#9CF6F6',
         display: 'flex',
         flexDirection: 'column',
-        flexWrap: 'wrap',
         textAlign: 'center',
         },
     content: {
@@ -19,16 +24,21 @@ const styles = {
         textAlign: 'center'
     },
     image: {
-        padding: 20,
+        height: '200px',
+        padding: 10,
         border: '1px solid #bed630',
-    }
+        justifyContent: 'center',
+        alignItems: 'center',
+        display: 'flex',
+        margin: '0 auto',
+    },
 }
 
 // Single component to be reused for multiple projects
  function Project(props) {
     return (
         <div style={styles.card} className="card-container">
-            <div className="image-container">
+            <div className="card-container">
                 <img style={styles.image} alt={props.data.name} src={props.data.image} />
             </div>
             <div style={styles.content} className="card-body">
@@ -36,7 +46,13 @@ const styles = {
                     <li>
                         Name: {props.data.name}
                     </li>
+                    {/*if there is a deployed link, show it, otherwise show nothing */}
                     <li>
+                         {/* <script>
+                        if (props.data.deployed === false) {
+                            props.data.deployed = "No deployed link available"
+                        }
+                    </script> */}
                         Deployed Application Link: {props.data.deployed}
                         {/* <p style={styles.pStyles} >Deployed Application <a href="{props.data.deployed}">here!</a></p> */}
                     </li>
@@ -53,37 +69,37 @@ export default function Portfolio() {
     const projects = [
         {
             name: "Beer Traveler",
-            image: "/images/beerTraveler.jpeg",
+            image: beerTraveler,
             deployed: "https://jkrieger6.github.io/beer-traveler/",
             github:""
         },
         {
             name: "The Recipe Drawer",
-            image: "/images/recipeDrawer.jpeg",
+            image: recipeDrawer,
             deployed: "https://the-recipe-drawer.herokuapp.com",
             github: ""
         },
         {
             name: "Work Day Scheduler",
-            image: "/images/workDay.jpeg",
+            image: workDay,
             deployed: "https://jkrieger6.github.io/work-day-scheduler/",
             github: ""
         },
         {
             name: "README Generator",
-            image: "/images/readmegen.jpeg",
+            image: readmeGen,
             deployed: "",
             github: "https://github.com/jkrieger6/README-generator/blob/main/README.md"
         },
         {
             name: "Employee Tracker",
-            image: "/images/employeeTracker.jpeg",
+            image: employeeTracker,
             deployed: "",
             github: "https://github.com/jkrieger6/Employee-tracker.git"
         },
         {
             name: "SVG Generator",
-            image: "/images/SVG.jpeg",
+            image: svg,
             deployed: "",
             github: "https://github.com/jkrieger6/brand-logo-generator"
         }

@@ -12,7 +12,7 @@ const styles = {
         margin: "10px",
         fontSize: "20px",
         fontWeight: "bold",
-        backgroundColor: "#A4778B"
+        backgroundColor: "#416788"
     },
 };
 

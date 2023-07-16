@@ -1,4 +1,5 @@
 import React from "react";
+import selfie from "../../images/IMG_3883 Small.jpeg";
 
 const styles = {
     aboutMeStyles: {
@@ -28,7 +29,7 @@ export default function AboutMe() {
     return (
         <div style={styles.aboutMeStyles}>
             <h1>About Me</h1>
-            <img style={styles.imgStyles} src="/images/IMG_3883 Small.jpeg" alt="Portrait of myself at the Grand Canyon" />
+            <img style={styles.imgStyles} src={selfie} alt="Portrait of myself at the Grand Canyon" />
             <div class="container" style={styles.pStyles}>
                 I am a full stack web developer with a full stack web development bootcamp certificate. 
                 I have a passion for creating and learning new things.

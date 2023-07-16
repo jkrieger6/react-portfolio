@@ -37,7 +37,7 @@ export default function Resume() {
             <h1>Resume</h1>
             <p style={styles.pStyles} >Download my <a href="https://docs.google.com/document/d/1aD1lK1apb2Pq_5YiKVMDHzPSd2zgBIpg8Jjvgl_Ew4k/edit?usp=sharing">resume</a> here!</p>
             <h2 style={styles.resumeStyles}>Front-end Proficiencies</h2>
-            <ul style={styles.skillsStyles}>
+            <div style={styles.skillsStyles}>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -45,9 +45,9 @@ export default function Resume() {
                 <li>responsive design</li>
                 <li>React</li>
                 <li>Bootstrap</li>
-            </ul>
+            </div>
             <h2 style={styles.resumeStyles}>Back-end Proficiencies</h2>
-            <ul style={styles.skillsStyles}>
+            <div style={styles.skillsStyles}>
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>
@@ -55,7 +55,7 @@ export default function Resume() {
                 <li>MongoDB, Mongoose</li>
                 <li>REST</li>
                 <li>GraphQL</li>
-            </ul>
+            </div>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import svg from '../../images/SVG.jpeg';
 import employeeTracker from '../../images/employee.jpeg';
 import recipeDrawer from '../../images/recipeDrawer.jpeg';
 import workDay from '../../images/workDay.jpeg';
+import 'animate.css';
 
 const styles = {
   card1: {
@@ -50,7 +51,7 @@ const styles = {
 function Project(props) {
   return (
     <div className="card" style={styles.card2}>
-      <div style={styles.projectStyles}>{props.data.name}</div>
+      <div class="animate__animated animate__jackInTheBox" style={styles.projectStyles}>{props.data.name}</div>
       <div>
         <img style={styles.image} alt={props.data.name} src={props.data.image} />
       </div>

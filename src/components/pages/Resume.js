@@ -1,4 +1,6 @@
 import React from "react";
+import 'animate.css';
+
 const styles = {
     resumeStyles: {
         backgroundColor: "#C2C2C2",
@@ -30,13 +32,13 @@ export default function Resume() {
               </p>
               <h2 className="text-uppercase mb-4">Front-end Proficiencies</h2>
               <ul className="list-unstyled mb-5">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Responsive Design</li>
-                <li>React</li>
-                <li>Bootstrap</li>
+                <li class="animate__animated animate__fadeInUp">HTML</li>
+                <li class="animate__animated animate__fadeInUp">CSS</li>
+                <li class="animate__animated animate__fadeInUp">JavaScript</li>
+                <li class="animate__animated animate__fadeInUp">jQuery</li>
+                <li class="animate__animated animate__fadeInUp">Responsive Design</li>
+                <li class="animate__animated animate__fadeInUp">React</li>
+                <li class="animate__animated animate__fadeInUp">Bootstrap</li>
               </ul>
               <h2 className="text-uppercase mb-4">Back-end Proficiencies</h2>
               <ul className="list-unstyled mb-0">

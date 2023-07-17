@@ -6,7 +6,7 @@ A portfolio using React.js
 A portfolio to showcase my work using React.js
 
 ## Visuals
-* This website is live at the following URL: 
+* This website is live at the following URL:  https://jkrieger6.github.io/react-portfolio/
 
 ## Installation
 * No installation is required to view the website.

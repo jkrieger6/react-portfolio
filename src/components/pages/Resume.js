@@ -1,61 +1,58 @@
 import React from "react";
-
 const styles = {
     resumeStyles: {
-        backgroundColor: "grey",
-        textAlign: "center",
-        textDecoration: "underline",
-        display: "flex",
-        justifyContent: "center"
+        backgroundColor: "#C2C2C2",
+        color: "#113e7c",
     },
-    pStyles: {
-        height: "100%",
+    bodyStyle: {
         backgroundColor: "grey",
-        color: "ivory",
-        textAlign: "center",
-        border: "5px solid black",
-    },
-    skillsStyles: {
-        backgroundColor: "grey",
-        color: "#E2B4BD",
-        textAlign: "center",
-        padding: "20px",
-    },
-    divStyles: {
-        textAlign: "center",
-        backgroundColor: "grey",
-        color: "#9CF6F6",
-        margin: "auto",
-        padding: "20px"
-    },
-
+    }
 };
 
 export default function Resume() {
-    return (
-        <div style={styles.divStyles}>
-            <h1>Resume</h1>
-            <p style={styles.pStyles} >Download my <a href="https://docs.google.com/document/d/1aD1lK1apb2Pq_5YiKVMDHzPSd2zgBIpg8Jjvgl_Ew4k/edit?usp=sharing">resume</a> here!</p>
-            <h2 style={styles.resumeStyles}>Front-end Proficiencies</h2>
-            <div style={styles.skillsStyles}>
+  return (
+    <div style={styles.bodyStyle}>
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-md-8">
+          <div className="card mt-5">
+            <div style={styles.resumeStyles} className="card-body text-center">
+              <h1 className="card-title mb-4">Resume</h1>
+              <p className="card-text mb-5">
+                Download my{" "}
+                <a
+                  href="https://docs.google.com/document/d/1aD1lK1apb2Pq_5YiKVMDHzPSd2zgBIpg8Jjvgl_Ew4k/edit?usp=sharing"
+                  className="text-info"
+                >
+                  resume
+                </a>{" "}
+                here!
+              </p>
+              <h2 className="text-uppercase mb-4">Front-end Proficiencies</h2>
+              <ul className="list-unstyled mb-5">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>jQuery</li>
-                <li>responsive design</li>
+                <li>Responsive Design</li>
                 <li>React</li>
                 <li>Bootstrap</li>
-            </div>
-            <h2 style={styles.resumeStyles}>Back-end Proficiencies</h2>
-            <div style={styles.skillsStyles}>
+              </ul>
+              <h2 className="text-uppercase mb-4">Back-end Proficiencies</h2>
+              <ul className="list-unstyled mb-0">
                 <li>APIs</li>
-                <li>Node</li>
-                <li>Express</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
                 <li>MySQL, Sequelize</li>
                 <li>MongoDB, Mongoose</li>
                 <li>REST</li>
                 <li>GraphQL</li>
+              </ul>
             </div>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+    </div>
+  );
 }

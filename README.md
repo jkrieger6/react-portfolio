@@ -16,6 +16,8 @@ A portfolio to showcase my work using React.js
 * Made with the latest version of GitHub
 * Made using the latest version of Node.js
 * Made using React.js
+* Made using the latest version of Bootstrap
+* Made using the latest version of Animate.css
 
 ## License
 * This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license

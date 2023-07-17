@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A portfolio using React.js",
   "main": "index.js",
-  "homepage": "https://jkrieger6.github.io",
+  "homepage": "https://jkrieger6.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -79,7 +79,7 @@ export default function Portfolio() {
       name: 'Yard to Table',
       image: recipeDrawer,
       deployed:  'https://yard-to-table-5841951867b0.herokuapp.com/',
-      github: 'https://github.com/codemodeactivate/yard-to-table'
+      github: 'https://github.com/codemodeactivate/yard-to-table',
     },
     {
       name: 'Beer Traveler',

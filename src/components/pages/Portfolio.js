@@ -76,6 +76,12 @@ function Project(props) {
 export default function Portfolio() {
   const projects = [
     {
+      name: 'Yard to Table',
+      image: recipeDrawer,
+      deployed:  'https://yard-to-table-5841951867b0.herokuapp.com/',
+      github: 'https://github.com/codemodeactivate/yard-to-table'
+    },
+    {
       name: 'Beer Traveler',
       image: beerTraveler,
       deployed: 'https://jkrieger6.github.io/beer-traveler/',
